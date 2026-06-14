@@ -1,0 +1,32 @@
+<?php
+/**
+ * @file
+ * TinyMCE plugin that provides an editor button for adding a teaser / summary break.
+ */
+
+/**
+ * Implements hook_tinymce_external_plugins().
+ */
+function tinymce_summarybreak_tinymce_external_plugins($format) {
+  $path = backdrop_get_path('module', 'tinymce_summarybreak');
+  $plugins = array(
+    'summarybreak' => array(
+      'plugin_path' => base_path() . $path . '/js/plugins/summarybreak/plugin.js',
+      'buttons' => array(
+        'summarybreak' => array(
+          'icon' => 'flip-vertically',
+          'tootip' => t('Teaser/summary break'),          
+        ),
+      ),
+    ),
+  );
+  return $plugins;
+}
+
+/**
+ * Implements hook_tinymce_options_alter().
+ */
+function tinymce_summarybreak_tinymce_options_alter(array &$options, $format) {
+  $options['tiny_options']['summarybreak_separator'] = "<!--break-->";
+  $options['tiny_options']['summarybreak_split_block'] = TRUE;
+}

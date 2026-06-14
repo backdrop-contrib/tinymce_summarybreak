@@ -1,0 +1,7 @@
+type = module
+name = TinyMCE Teaser Summary Break
+description = TinyMCE plugin and button to insert teaser/summary break.
+backdrop = 1.x
+
+dependencies[] = tinymce
+
