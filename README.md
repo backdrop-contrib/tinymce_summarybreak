@@ -3,7 +3,7 @@
 Provides an editor button to insert teaser/summary breaks. When used, anything above the line will be treated as the "Summary" or "Teaser" for the post.
 This is something which I (the creator) used frequently in D7's CKeditor, which I missed in Backdrop.
 
-
+![Screenshot of the plugin](https://raw.githubusercontent.com/backdrop-contrib/tinymce_summarybreak/1.x-1.x/screenshots/insert_summary_teaser_break.png)
 
 ## Installation
 
