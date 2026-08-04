@@ -19,8 +19,15 @@ This is something which I (the creator) used frequently in D7's CKeditor, which 
 
 ## Current Maintainers
 
-- [Richard Peacock (swampopus)](https://github.com/swampopus) - Original creator for Backdrop
-- Seeking other maintainers or PRs!
+- [Richard Peacock](https://github.com/swampopus)
+- Seeking additional maintainers
+
+
+Credits
+-------
+
+- Created for Backdrop CMS by [Richard Peacock](https://github.com/swampopus)
+- Development sponsored by [FlightPath Academics](https://flightpathacademics.com)
 
 ## License
 
